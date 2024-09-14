@@ -4,3 +4,4 @@
 >> created import and destroy scripts to import and delete data in MongoDB in bulk from vs code
 >> Custom error handler
 >> Postman collection for all apis
+>> making api calls thorugh createApiSlice in redux
