@@ -1,0 +1,6 @@
+>> used scripts like nodemon, concurrently - to start the backend and frontend with single command to start in dev mode
+>> Used the custom async handler middleware
+>> used colors package to highlight the key tags in console
+>> created import and destroy scripts to import and delete data in MongoDB in bulk from vs code
+>> Custom error handler
+>> Postman collection for all apis
