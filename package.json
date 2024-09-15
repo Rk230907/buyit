@@ -11,14 +11,15 @@
     "dev": "concurrently \"npm run server\" \"npm run client \"",
     "data:import": "node backend/seeder.js",
     "data:destroy": "node backend/seeder.js -d"
-
   },
   "author": "Yash Patel",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
+    "cookie-parser": "^1.4.6",
     "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.6.2"
   },
   "devDependencies": {
