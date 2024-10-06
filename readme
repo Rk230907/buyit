@@ -9,3 +9,4 @@
 > > Send jwt as a HTTP-Only Cookie
 > > Auth middlewares for protected routes and admin routes
 > > usage of <userSchema.pre> function in userModel to bycrypt the password before saving in the database
+> > Paypal payment integration with package @paypal/react-paypal-js
