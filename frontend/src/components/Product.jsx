@@ -13,6 +13,11 @@ const Product = ({ product }) => {
             className={styles.productImage}
             src={product.image}
             variant="top"
+            style={{
+              maxHeight: "110px",
+              maxWidth: "140px",
+              objectFit: "contain",
+            }}
           />
         </div>
       </Link>
@@ -22,7 +27,14 @@ const Product = ({ product }) => {
           to={`/product/${product._id}`}
           className={styles.productTitleLink}
         >
-          <Card.Title as="div" className={styles.productTitle}>
+          <Card.Title
+            as="div"
+            style={{
+              whiteSpace: "nowrap",
+              overflow: "hidden",
+              textOverflow: "ellipsis",
+            }}
+          >
             <strong>{product.name}</strong>
           </Card.Title>
         </Link>
