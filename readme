@@ -38,3 +38,4 @@
 > > > > Auth middlewares for protected routes and admin routes
 > > > > usage of <userSchema.pre> function in userModel to bycrypt the password before saving in the database
 > > > > Paypal payment integration with package @paypal/react-paypal-js
+> > > > Used Helmet library for custom meta tag for each page
